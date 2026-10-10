@@ -1,0 +1,17 @@
+/* PASO 4: CSS Modules - nombres únicos generados automáticamente. */
+.header {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  opacity: 0.9;
+}

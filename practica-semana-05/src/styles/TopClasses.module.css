@@ -1,0 +1,59 @@
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.titulo {
+  font-size: 1.2rem;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.subtitulo {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1.25rem;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.nombre {
+  font-weight: 600;
+  color: #374151;
+}
+
+.cifra {
+  color: #6b7280;
+}
+
+.progressBg {
+  background: #f3f4f6;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}

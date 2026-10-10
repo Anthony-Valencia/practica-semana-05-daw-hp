@@ -1,0 +1,24 @@
+/* PASO 2: Estilos globales mínimos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f2937;
+}
+
+/* PASO 4 (fix footer): #root ocupa todo el alto y usa flex column.
+   main hace flex:1 → empuja el footer al fondo aunque haya poco contenido. */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

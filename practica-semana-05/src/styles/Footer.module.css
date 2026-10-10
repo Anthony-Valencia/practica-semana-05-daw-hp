@@ -1,0 +1,12 @@
+/* PASO 4 (fix footer):
+   No usar position:fixed (tapa contenido).
+   El layout flex de #root + main{flex:1} hace que este footer
+   siempre quede al fondo, incluso si el contenido es corto. */
+.footer {
+  background: #1f2937;
+  color: #9ca3af;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto; /* refuerzo: empuja el footer al fondo */
+  font-size: 0.9rem;
+}
